@@ -1,0 +1,60 @@
+li, th, .row a {
+  font-familiy: sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+  padding: 20px;
+  margin: 20px;
+  color: white;
+}
+
+.row div {
+  padding: 20px;
+  background-color: teal;
+  border: 2px solid white;
+  color: white;
+  text-align: center;
+}
+img {
+  width: 25%;
+  margin: 5px;
+}
+
+table {
+  border: 2px solid black;
+  border-collapse: collapse;
+  width: 50%;
+  margin: 5px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+th, td {
+  border: 1px solid black;
+  padding: 5px;
+  text-align: center;
+}
+
+th {
+  background-color: teal;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+}
+.container div {
+  text-align: center;
+  background-color: teal;
+  font-size: 20px;
+  margin: 20px;
+  padding: 20px;
+  width: 200px;
+  color: white;
+}
+
+li {
+  color: black;
+  font-style: italic;
+}
+
+/*# sourceMappingURL=style.css.map */

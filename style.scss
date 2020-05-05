@@ -1,0 +1,73 @@
+$margin: 5px;
+$background_color: teal;
+$color: white;
+
+%text{
+  font-familiy: sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+  padding: 20px;
+  margin: 20px;
+  color: $color;
+}
+
+.row{
+
+  div {
+    padding: 20px;
+    background-color: $background_color;
+    border: 2px solid white;
+    color: $color;
+    text-align: center;
+  }
+
+  a {
+    @extend %text;
+  }
+}
+
+img {
+  width: 25%;
+  margin: $margin;
+}
+
+table {
+  border: 2px solid black;
+  border-collapse: collapse;
+  width: 50%;
+  margin: $margin;
+  margin-left:auto;
+  margin-right:auto;
+}
+
+th, td {
+  border: 1px solid black;
+  padding: 5px;
+  text-align: center;
+}
+
+th {
+  background-color: $background_color;
+  @extend %text;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+
+  div{
+    text-align: center;
+    background-color: $background_color;
+    font-size: 20px;
+    margin: 20px;
+    padding: 20px;
+    width: 200px;
+    color: $color;
+  }
+}
+
+li{
+  @extend %text;
+  color: black;
+  font-style: italic;
+}
