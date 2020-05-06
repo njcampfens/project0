@@ -1,11 +1,19 @@
 $margin: 5px;
-$background_color: teal;
+$background_color: #4a4a4a;
 $color: white;
+
+
+
+@media (max-width: 599px) {
+  h1 {
+    color: red;
+  }
+}
 
 %text{
   font-familiy: sans-serif;
   font-size: 18px;
-  font-weight: bold;
+  font-weight: normal;
   padding: 20px;
   margin: 20px;
   color: $color;
@@ -26,7 +34,7 @@ $color: white;
   }
 }
 
-img {
+#img_me {
   width: 25%;
   margin: $margin;
 }

@@ -1,7 +1,12 @@
+@media (max-width: 599px) {
+  h1 {
+    color: red;
+  }
+}
 li, th, .row a {
   font-familiy: sans-serif;
   font-size: 18px;
-  font-weight: bold;
+  font-weight: normal;
   padding: 20px;
   margin: 20px;
   color: white;
@@ -9,12 +14,12 @@ li, th, .row a {
 
 .row div {
   padding: 20px;
-  background-color: teal;
+  background-color: #4a4a4a;
   border: 2px solid white;
   color: white;
   text-align: center;
 }
-img {
+#img_me {
   width: 25%;
   margin: 5px;
 }
@@ -35,7 +40,7 @@ th, td {
 }
 
 th {
-  background-color: teal;
+  background-color: #4a4a4a;
 }
 
 .container {
@@ -44,7 +49,7 @@ th {
 }
 .container div {
   text-align: center;
-  background-color: teal;
+  background-color: #4a4a4a;
   font-size: 20px;
   margin: 20px;
   padding: 20px;
